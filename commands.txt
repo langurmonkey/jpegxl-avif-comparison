@@ -1,0 +1,2 @@
+avifenc -j 4 --min 0 --max 63  -a end-usage=q -a cq-level=10 plot-o.png avif/plot-good.avif
+cjxl plot-o.png jxl/plot-good.jxl -q 70
